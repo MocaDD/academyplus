@@ -6,7 +6,7 @@
 /*   By: dmoca <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/01 15:06:55 by dmoca             #+#    #+#             */
-/*   Updated: 2015/11/01 15:20:11 by dmoca            ###   ########.fr       */
+/*   Updated: 2015/11/08 12:43:16 by dmoca            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,14 +20,14 @@ size_t		ft_strlcat(char *dst, const char *src, size_t size)
 
 	len = ft_strlen(dst);
 	i = 0;
-	while(dst[i])
+	while (dst[i])
 		i++;
 	j = 0;
 	if (size <= len)
 		return (ft_strlen(src) + size);
 	else
 	{
-		while(src[j] && j < size - len - 1)
+		while (src[j] && j < size - len - 1)
 		{
 			dst[i] = src[j];
 			j++;

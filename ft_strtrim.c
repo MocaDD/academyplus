@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: dmoca <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2015/10/31 18:54:41 by dmoca             #+#    #+#             */
-/*   Updated: 2015/11/01 10:09:22 by dmoca            ###   ########.fr       */
+/*   Created: 2015/11/08 11:31:54 by dmoca             #+#    #+#             */
+/*   Updated: 2015/11/08 11:41:07 by dmoca            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,26 +14,26 @@
 
 char	*ft_strtrim(char const *s)
 {
-	int		first;
-	int		last;
 	int		i;
+	int		j;
+	int		k;
 	char	*str;
 
-	i = 0;
-	last = ft_strlen(s);
-	last--;
-	while (s[last] == ' ' || s[last] == '\t' || s[last] == '\n')
-		last--;
-	first = 0;
-	while (s[first] == ' ' || s[first] == '\t' || s[first] == '\n')
-		first++;
-	if (!(str = (char*)malloc(sizeof(char) * (last - first) + 2)))
-		return (NULL);
-	while (i <= last - first)
+	if (s)
 	{
-		str[i] = s[first + i];
-		i++;
+		i = 0;
+		while (s[i] == ' ' || s[i] == '\t' || s[i] == '\n')
+			i++;
+		j = (int)ft_strlen(s) - 1;
+		while (s[j] == ' ' || s[j] == '\t' || s[j] == '\n')
+			j--;
+		if (!(str = (char*)malloc(sizeof(char) * j + 1)))
+			return (NULL);
+		k = 0;
+		while (i <= j)
+			str[k++] = s[i++];
+		str[k] = '\0';
+		return (str);
 	}
-	str[i] = '\0';
-	return (str);
+	return (NULL);
 }

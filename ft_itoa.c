@@ -6,37 +6,39 @@
 /*   By: dmoca <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/01 13:07:26 by dmoca             #+#    #+#             */
-/*   Updated: 2015/11/01 13:50:53 by dmoca            ###   ########.fr       */
+/*   Updated: 2015/11/08 12:46:12 by dmoca            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_ndigit(int n, int i)
+static char		*ft_ndigit(int n, int i)
 {
-	char *str;
+	char			*str;
+	unsigned int	nb;
 
 	if (!(str = (char*)malloc(sizeof(char) * i + 1)))
 		return (NULL);
 	str[i] = '\0';
 	i--;
+	nb = n;
 	if (n < 0)
 	{
 		str[0] = '-';
-		n = -n;
+		nb = -n;
 	}
-	if (n == 0)
+	if (nb == 0)
 		str[0] = '0';
-	while (n > 0)
+	while (nb > 0)
 	{
-		str[i] = (n % 10) + '0';
+		str[i] = (nb % 10) + '0';
 		i--;
-		n = n / 10;
+		nb = nb / 10;
 	}
 	return (str);
 }
 
-char	*ft_itoa(int n)
+char			*ft_itoa(int n)
 {
 	int nbr;
 	int i;
