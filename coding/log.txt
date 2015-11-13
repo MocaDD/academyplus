@@ -1,0 +1,2678 @@
+starting program.
+choosing database to open. arguments: 1
+trying to open file: csv/students.csv
+succesfully opened file: csv/students.csv
+succesfully opened database
+starting database validation
+starting validation for line: 1
+starting line format validation for line: 1
+verifying if string is empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+string found not empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counting columns for line: 1
+counting specific chars in string: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+verifying if last char from string is specific: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 1
+starting words validation for line: 1
+starting validation for names in line: 1
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Popescu
+verifying if string is empty: Popescu
+string found not empty: Popescu
+verifying if string is not too bigPopescu
+length verification ended succesgully
+verifying name format: Popescu
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 1
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for email pi@gmail.com
+verifying if string is empty: pi@gmail.com
+string found not empty: pi@gmail.com
+verifying if string is not too bigpi@gmail.com
+length verification ended succesgully
+starting email format validation: pi@gmail.com
+verifying if string has exactly one specific char: pi@gmail.com
+starting validation for email local part: pi
+verifying if string is empty: pi
+string found not empty: pi
+verifying if string has no blank spaces: pi
+counting specific chars in string: pi
+counted chars: 0
+counting specific chars in string: pi
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting grade validation: 8.5
+verifying if string is empty: 8.5
+string found not empty: 8.5
+verifying if string is not too big8.5
+length verification ended succesgully
+starting grade format validation: 8.5
+counting specific chars in string: 8.5
+counted chars: 1
+starting separated grade format validation: 8.5
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 1
+starting validation for line: 2
+starting line format validation for line: 2
+verifying if string is empty: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+string found not empty: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+counting columns for line: 2
+counting specific chars in string: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+verifying if last char from string is specific: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 2
+starting words validation for line: 2
+starting validation for names in line: 2
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting validation for name: Moldovan
+verifying if string is empty: Moldovan
+string found not empty: Moldovan
+verifying if string is not too bigMoldovan
+length verification ended succesgully
+verifying name format: Moldovan
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting validation for name: Crina
+verifying if string is empty: Crina
+string found not empty: Crina
+verifying if string is not too bigCrina
+length verification ended succesgully
+verifying name format: Crina
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 2
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting validation for email mc@gmail.com
+verifying if string is empty: mc@gmail.com
+string found not empty: mc@gmail.com
+verifying if string is not too bigmc@gmail.com
+length verification ended succesgully
+starting email format validation: mc@gmail.com
+verifying if string has exactly one specific char: mc@gmail.com
+starting validation for email local part: mc
+verifying if string is empty: mc
+string found not empty: mc
+verifying if string has no blank spaces: mc
+counting specific chars in string: mc
+counted chars: 0
+counting specific chars in string: mc
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting grade validation: 10
+verifying if string is empty: 10
+string found not empty: 10
+verifying if string is not too big10
+length verification ended succesgully
+starting grade format validation: 10
+counting specific chars in string: 10
+counted chars: 0
+starting simple grade format validation: 10
+simple grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 2
+starting validation for line: 3
+starting line format validation for line: 3
+verifying if string is empty: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+string found not empty: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+counting columns for line: 3
+counting specific chars in string: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+verifying if last char from string is specific: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 3
+starting words validation for line: 3
+starting validation for names in line: 3
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting validation for name: Vasile
+verifying if string is empty: Vasile
+string found not empty: Vasile
+verifying if string is not too bigVasile
+length verification ended succesgully
+verifying name format: Vasile
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting validation for name: Gheorghe Tudor
+verifying if string is empty: Gheorghe Tudor
+string found not empty: Gheorghe Tudor
+verifying if string is not too bigGheorghe Tudor
+length verification ended succesgully
+verifying name format: Gheorghe Tudor
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 3
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting validation for email vg@yahoo.com
+verifying if string is empty: vg@yahoo.com
+string found not empty: vg@yahoo.com
+verifying if string is not too bigvg@yahoo.com
+length verification ended succesgully
+starting email format validation: vg@yahoo.com
+verifying if string has exactly one specific char: vg@yahoo.com
+starting validation for email local part: vg
+verifying if string is empty: vg
+string found not empty: vg
+verifying if string has no blank spaces: vg
+counting specific chars in string: vg
+counted chars: 0
+counting specific chars in string: vg
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: yahoo.com
+verifying if string has exactly one specific char: yahoo.com
+starting validation for email subdomain: yahoo
+verifying if string is empty: yahoo
+string found not empty: yahoo
+verifying if string is alphabetic: yahoo
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting grade validation: 8.9
+verifying if string is empty: 8.9
+string found not empty: 8.9
+verifying if string is not too big8.9
+length verification ended succesgully
+starting grade format validation: 8.9
+counting specific chars in string: 8.9
+counted chars: 1
+starting separated grade format validation: 8.9
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting county validation: Timis
+verifying if string is empty: Timis
+string found not empty: Timis
+verifying if string is not too bigTimis
+length verification ended succesgully
+starting search for the county: Timis
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Timis
+county validation ended succesfully: Timis
+validation ended succesfully at line: 3
+starting validation for line: 4
+starting line format validation for line: 4
+verifying if string is empty: Ion; Compot; im@gmail.com; 7.9; Cluj;
+string found not empty: Ion; Compot; im@gmail.com; 7.9; Cluj;
+counting columns for line: 4
+counting specific chars in string: Ion; Compot; im@gmail.com; 7.9; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Ion; Compot; im@gmail.com; 7.9; Cluj;
+verifying if last char from string is specific: Ion; Compot; im@gmail.com; 7.9; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 4
+starting words validation for line: 4
+starting validation for names in line: 4
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+starting validation for name: Compot
+verifying if string is empty: Compot
+string found not empty: Compot
+verifying if string is not too bigCompot
+length verification ended succesgully
+verifying name format: Compot
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 4
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+starting validation for email im@gmail.com
+verifying if string is empty: im@gmail.com
+string found not empty: im@gmail.com
+verifying if string is not too bigim@gmail.com
+length verification ended succesgully
+starting email format validation: im@gmail.com
+verifying if string has exactly one specific char: im@gmail.com
+starting validation for email local part: im
+verifying if string is empty: im
+string found not empty: im
+verifying if string has no blank spaces: im
+counting specific chars in string: im
+counted chars: 0
+counting specific chars in string: im
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+starting grade validation: 7.9
+verifying if string is empty: 7.9
+string found not empty: 7.9
+verifying if string is not too big7.9
+length verification ended succesgully
+starting grade format validation: 7.9
+counting specific chars in string: 7.9
+counted chars: 1
+starting separated grade format validation: 7.9
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 4
+database validation complete
+going back to the start of the database
+verifying if student has grades over: 8
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+student has grades over: 8
+verifying if student is from county: CLUJ
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+student is not from the county: CLUJ
+printing student name
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+verifying if student has grades over: 8
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+student has grades over: 8
+verifying if student is from county: CLUJ
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+student is not from the county: CLUJ
+printing student name
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+verifying if student has grades over: 8
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+student has grades over: 8
+verifying if student is from county: CLUJ
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+student is not from the county: CLUJ
+verifying if student has grades over: 8
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+student doesn't have grades over: 8
+ending succesful program.
+starting program.
+choosing database to open. arguments: 1
+trying to open file: csv/students.csv
+succesfully opened file: csv/students.csv
+succesfully opened database
+starting database validation
+starting validation for line: 1
+starting line format validation for line: 1
+verifying if string is empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+string found not empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counting columns for line: 1
+counting specific chars in string: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+verifying if last char from string is specific: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 1
+starting words validation for line: 1
+starting validation for names in line: 1
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Popescu
+verifying if string is empty: Popescu
+string found not empty: Popescu
+verifying if string is not too bigPopescu
+length verification ended succesgully
+verifying name format: Popescu
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 1
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for email pi@gmail.com
+verifying if string is empty: pi@gmail.com
+string found not empty: pi@gmail.com
+verifying if string is not too bigpi@gmail.com
+length verification ended succesgully
+starting email format validation: pi@gmail.com
+verifying if string has exactly one specific char: pi@gmail.com
+starting validation for email local part: pi
+verifying if string is empty: pi
+string found not empty: pi
+verifying if string has no blank spaces: pi
+counting specific chars in string: pi
+counted chars: 0
+counting specific chars in string: pi
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting grade validation: 8.5
+verifying if string is empty: 8.5
+string found not empty: 8.5
+verifying if string is not too big8.5
+length verification ended succesgully
+starting grade format validation: 8.5
+counting specific chars in string: 8.5
+counted chars: 1
+starting separated grade format validation: 8.5
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 1
+starting validation for line: 2
+starting line format validation for line: 2
+verifying if string is empty: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+string found not empty: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+counting columns for line: 2
+counting specific chars in string: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+verifying if last char from string is specific: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 2
+starting words validation for line: 2
+starting validation for names in line: 2
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting validation for name: Moldovan
+verifying if string is empty: Moldovan
+string found not empty: Moldovan
+verifying if string is not too bigMoldovan
+length verification ended succesgully
+verifying name format: Moldovan
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting validation for name: Crina
+verifying if string is empty: Crina
+string found not empty: Crina
+verifying if string is not too bigCrina
+length verification ended succesgully
+verifying name format: Crina
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 2
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting validation for email mc@gmail.com
+verifying if string is empty: mc@gmail.com
+string found not empty: mc@gmail.com
+verifying if string is not too bigmc@gmail.com
+length verification ended succesgully
+starting email format validation: mc@gmail.com
+verifying if string has exactly one specific char: mc@gmail.com
+starting validation for email local part: mc
+verifying if string is empty: mc
+string found not empty: mc
+verifying if string has no blank spaces: mc
+counting specific chars in string: mc
+counted chars: 0
+counting specific chars in string: mc
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting grade validation: 10
+verifying if string is empty: 10
+string found not empty: 10
+verifying if string is not too big10
+length verification ended succesgully
+starting grade format validation: 10
+counting specific chars in string: 10
+counted chars: 0
+starting simple grade format validation: 10
+simple grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 2
+starting validation for line: 3
+starting line format validation for line: 3
+verifying if string is empty: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+string found not empty: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+counting columns for line: 3
+counting specific chars in string: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+verifying if last char from string is specific: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 3
+starting words validation for line: 3
+starting validation for names in line: 3
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting validation for name: Vasile
+verifying if string is empty: Vasile
+string found not empty: Vasile
+verifying if string is not too bigVasile
+length verification ended succesgully
+verifying name format: Vasile
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting validation for name: Gheorghe Tudor
+verifying if string is empty: Gheorghe Tudor
+string found not empty: Gheorghe Tudor
+verifying if string is not too bigGheorghe Tudor
+length verification ended succesgully
+verifying name format: Gheorghe Tudor
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 3
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting validation for email vg@yahoo.com
+verifying if string is empty: vg@yahoo.com
+string found not empty: vg@yahoo.com
+verifying if string is not too bigvg@yahoo.com
+length verification ended succesgully
+starting email format validation: vg@yahoo.com
+verifying if string has exactly one specific char: vg@yahoo.com
+starting validation for email local part: vg
+verifying if string is empty: vg
+string found not empty: vg
+verifying if string has no blank spaces: vg
+counting specific chars in string: vg
+counted chars: 0
+counting specific chars in string: vg
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: yahoo.com
+verifying if string has exactly one specific char: yahoo.com
+starting validation for email subdomain: yahoo
+verifying if string is empty: yahoo
+string found not empty: yahoo
+verifying if string is alphabetic: yahoo
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting grade validation: 8.9
+verifying if string is empty: 8.9
+string found not empty: 8.9
+verifying if string is not too big8.9
+length verification ended succesgully
+starting grade format validation: 8.9
+counting specific chars in string: 8.9
+counted chars: 1
+starting separated grade format validation: 8.9
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting county validation: Timis
+verifying if string is empty: Timis
+string found not empty: Timis
+verifying if string is not too bigTimis
+length verification ended succesgully
+starting search for the county: Timis
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Timis
+county validation ended succesfully: Timis
+validation ended succesfully at line: 3
+starting validation for line: 4
+starting line format validation for line: 4
+verifying if string is empty: Ion; Compot; im@gmail.com; 7.9; Cluj;
+string found not empty: Ion; Compot; im@gmail.com; 7.9; Cluj;
+counting columns for line: 4
+counting specific chars in string: Ion; Compot; im@gmail.com; 7.9; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Ion; Compot; im@gmail.com; 7.9; Cluj;
+verifying if last char from string is specific: Ion; Compot; im@gmail.com; 7.9; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 4
+starting words validation for line: 4
+starting validation for names in line: 4
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+starting validation for name: Compot
+verifying if string is empty: Compot
+string found not empty: Compot
+verifying if string is not too bigCompot
+length verification ended succesgully
+verifying name format: Compot
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 4
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+starting validation for email im@gmail.com
+verifying if string is empty: im@gmail.com
+string found not empty: im@gmail.com
+verifying if string is not too bigim@gmail.com
+length verification ended succesgully
+starting email format validation: im@gmail.com
+verifying if string has exactly one specific char: im@gmail.com
+starting validation for email local part: im
+verifying if string is empty: im
+string found not empty: im
+verifying if string has no blank spaces: im
+counting specific chars in string: im
+counted chars: 0
+counting specific chars in string: im
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+starting grade validation: 7.9
+verifying if string is empty: 7.9
+string found not empty: 7.9
+verifying if string is not too big7.9
+length verification ended succesgully
+starting grade format validation: 7.9
+counting specific chars in string: 7.9
+counted chars: 1
+starting separated grade format validation: 7.9
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 4
+database validation complete
+going back to the start of the database
+verifying if student has grades over: 8
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+student has grades over: 8
+verifying if student is from county: CLUJ
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+student is not from the county: CLUJ
+printing student name
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+verifying if student has grades over: 8
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+student has grades over: 8
+verifying if student is from county: CLUJ
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+student is not from the county: CLUJ
+printing student name
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+verifying if student has grades over: 8
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+student has grades over: 8
+verifying if student is from county: CLUJ
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+student is not from the county: CLUJ
+verifying if student has grades over: 8
+searching specific word in line: Ion; Compot; im@gmail.com; 7.9; Cluj;
+word found
+student doesn't have grades over: 8
+ending succesful program.
+counting specific chars in string: abcd;xyz;
+counted chars: 2
+counting specific chars in string: abcd;xyz;
+counted chars: 1
+counting specific chars in string: abcd;xyz;
+counted chars: 0
+starting search for the county: CLUJ
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: CLUJ
+starting search for the county: braSOV
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: braSOV
+starting search for the county: DEJ
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county doesn't exist: DEJ
+printing error message: just_testing
+starting county validation: 
+verifying if string is empty: 
+string found empty: 
+printing error message: County is empty.
+starting county validation: BISTRITA_NASAUDDDDD
+verifying if string is empty: BISTRITA_NASAUDDDDD
+string found not empty: BISTRITA_NASAUDDDDD
+verifying if string is not too bigBISTRITA_NASAUDDDDD
+printing error message: County is too big.
+string is too long
+starting county validation: DEJ
+verifying if string is empty: DEJ
+string found not empty: DEJ
+verifying if string is not too bigDEJ
+length verification ended succesgully
+starting search for the county: DEJ
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county doesn't exist: DEJ
+printing error message: County doesn't exist.
+starting county validation: CLUJ
+verifying if string is empty: CLUJ
+string found not empty: CLUJ
+verifying if string is not too bigCLUJ
+length verification ended succesgully
+starting search for the county: CLUJ
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: CLUJ
+county validation ended succesfully: CLUJ
+starting database validation
+starting validation for line: 1
+starting line format validation for line: 1
+verifying if string is empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+string found not empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counting columns for line: 1
+counting specific chars in string: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+verifying if last char from string is specific: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 1
+starting words validation for line: 1
+starting validation for names in line: 1
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Popescu
+verifying if string is empty: Popescu
+string found not empty: Popescu
+verifying if string is not too bigPopescu
+length verification ended succesgully
+verifying name format: Popescu
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 1
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for email pi@gmail.com
+verifying if string is empty: pi@gmail.com
+string found not empty: pi@gmail.com
+verifying if string is not too bigpi@gmail.com
+length verification ended succesgully
+starting email format validation: pi@gmail.com
+verifying if string has exactly one specific char: pi@gmail.com
+starting validation for email local part: pi
+verifying if string is empty: pi
+string found not empty: pi
+verifying if string has no blank spaces: pi
+counting specific chars in string: pi
+counted chars: 0
+counting specific chars in string: pi
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting grade validation: 8.5
+verifying if string is empty: 8.5
+string found not empty: 8.5
+verifying if string is not too big8.5
+length verification ended succesgully
+starting grade format validation: 8.5
+counting specific chars in string: 8.5
+counted chars: 1
+starting separated grade format validation: 8.5
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 1
+starting validation for line: 2
+starting line format validation for line: 2
+verifying if string is empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+string found not empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counting columns for line: 2
+counting specific chars in string: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+verifying if last char from string is specific: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 2
+starting words validation for line: 2
+starting validation for names in line: 2
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Popescu
+verifying if string is empty: Popescu
+string found not empty: Popescu
+verifying if string is not too bigPopescu
+length verification ended succesgully
+verifying name format: Popescu
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 2
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for email pi@gmail.com
+verifying if string is empty: pi@gmail.com
+string found not empty: pi@gmail.com
+verifying if string is not too bigpi@gmail.com
+length verification ended succesgully
+starting email format validation: pi@gmail.com
+verifying if string has exactly one specific char: pi@gmail.com
+starting validation for email local part: pi
+verifying if string is empty: pi
+string found not empty: pi
+verifying if string has no blank spaces: pi
+counting specific chars in string: pi
+counted chars: 0
+counting specific chars in string: pi
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting grade validation: 8.5
+verifying if string is empty: 8.5
+string found not empty: 8.5
+verifying if string is not too big8.5
+length verification ended succesgully
+starting grade format validation: 8.5
+counting specific chars in string: 8.5
+counted chars: 1
+starting separated grade format validation: 8.5
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 2
+starting validation for line: 3
+starting line format validation for line: 3
+verifying if string is empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+string found not empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counting columns for line: 3
+counting specific chars in string: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+verifying if last char from string is specific: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 3
+starting words validation for line: 3
+starting validation for names in line: 3
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Popescu
+verifying if string is empty: Popescu
+string found not empty: Popescu
+verifying if string is not too bigPopescu
+length verification ended succesgully
+verifying name format: Popescu
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 3
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for email pi@gmail.com
+verifying if string is empty: pi@gmail.com
+string found not empty: pi@gmail.com
+verifying if string is not too bigpi@gmail.com
+length verification ended succesgully
+starting email format validation: pi@gmail.com
+verifying if string has exactly one specific char: pi@gmail.com
+starting validation for email local part: pi
+verifying if string is empty: pi
+string found not empty: pi
+verifying if string has no blank spaces: pi
+counting specific chars in string: pi
+counted chars: 0
+counting specific chars in string: pi
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting grade validation: 8.5
+verifying if string is empty: 8.5
+string found not empty: 8.5
+verifying if string is not too big8.5
+length verification ended succesgully
+starting grade format validation: 8.5
+counting specific chars in string: 8.5
+counted chars: 1
+starting separated grade format validation: 8.5
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 3
+starting validation for line: 4
+starting line format validation for line: 4
+verifying if string is empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+string found not empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counting columns for line: 4
+counting specific chars in string: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+verifying if last char from string is specific: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 4
+starting words validation for line: 4
+starting validation for names in line: 4
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Popescu
+verifying if string is empty: Popescu
+string found not empty: Popescu
+verifying if string is not too bigPopescu
+length verification ended succesgully
+verifying name format: Popescu
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 4
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for email pi@gmail.com
+verifying if string is empty: pi@gmail.com
+string found not empty: pi@gmail.com
+verifying if string is not too bigpi@gmail.com
+length verification ended succesgully
+starting email format validation: pi@gmail.com
+verifying if string has exactly one specific char: pi@gmail.com
+starting validation for email local part: pi
+verifying if string is empty: pi
+string found not empty: pi
+verifying if string has no blank spaces: pi
+counting specific chars in string: pi
+counted chars: 0
+counting specific chars in string: pi
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting grade validation: 8.5
+verifying if string is empty: 8.5
+string found not empty: 8.5
+verifying if string is not too big8.5
+length verification ended succesgully
+starting grade format validation: 8.5
+counting specific chars in string: 8.5
+counted chars: 1
+starting separated grade format validation: 8.5
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 4
+starting validation for line: 5
+starting line format validation for line: 5
+verifying if string is empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+string found not empty: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counting columns for line: 5
+counting specific chars in string: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+verifying if last char from string is specific: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 5
+starting words validation for line: 5
+starting validation for names in line: 5
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Popescu
+verifying if string is empty: Popescu
+string found not empty: Popescu
+verifying if string is not too bigPopescu
+length verification ended succesgully
+verifying name format: Popescu
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 5
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting validation for email pi@gmail.com
+verifying if string is empty: pi@gmail.com
+string found not empty: pi@gmail.com
+verifying if string is not too bigpi@gmail.com
+length verification ended succesgully
+starting email format validation: pi@gmail.com
+verifying if string has exactly one specific char: pi@gmail.com
+starting validation for email local part: pi
+verifying if string is empty: pi
+string found not empty: pi
+verifying if string has no blank spaces: pi
+counting specific chars in string: pi
+counted chars: 0
+counting specific chars in string: pi
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting grade validation: 8.5
+verifying if string is empty: 8.5
+string found not empty: 8.5
+verifying if string is not too big8.5
+length verification ended succesgully
+starting grade format validation: 8.5
+counting specific chars in string: 8.5
+counted chars: 1
+starting separated grade format validation: 8.5
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Popescu; Ion; pi@gmail.com; 8.5; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 5
+starting validation for line: 6
+starting line format validation for line: 6
+verifying if string is empty: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+string found not empty: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+counting columns for line: 6
+counting specific chars in string: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+verifying if last char from string is specific: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 6
+starting words validation for line: 6
+starting validation for names in line: 6
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting validation for name: Moldovan
+verifying if string is empty: Moldovan
+string found not empty: Moldovan
+verifying if string is not too bigMoldovan
+length verification ended succesgully
+verifying name format: Moldovan
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting validation for name: Crina
+verifying if string is empty: Crina
+string found not empty: Crina
+verifying if string is not too bigCrina
+length verification ended succesgully
+verifying name format: Crina
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 6
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting validation for email mc@gmail.com
+verifying if string is empty: mc@gmail.com
+string found not empty: mc@gmail.com
+verifying if string is not too bigmc@gmail.com
+length verification ended succesgully
+starting email format validation: mc@gmail.com
+verifying if string has exactly one specific char: mc@gmail.com
+starting validation for email local part: mc
+verifying if string is empty: mc
+string found not empty: mc
+verifying if string has no blank spaces: mc
+counting specific chars in string: mc
+counted chars: 0
+counting specific chars in string: mc
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting grade validation: 10
+verifying if string is empty: 10
+string found not empty: 10
+verifying if string is not too big10
+length verification ended succesgully
+starting grade format validation: 10
+counting specific chars in string: 10
+counted chars: 0
+starting simple grade format validation: 10
+simple grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Moldovan; Crina; mc@gmail.com; 10; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 6
+starting validation for line: 7
+starting line format validation for line: 7
+verifying if string is empty: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+string found not empty: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+counting columns for line: 7
+counting specific chars in string: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+verifying if last char from string is specific: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 7
+starting words validation for line: 7
+starting validation for names in line: 7
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting validation for name: Vasile
+verifying if string is empty: Vasile
+string found not empty: Vasile
+verifying if string is not too bigVasile
+length verification ended succesgully
+verifying name format: Vasile
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting validation for name: Gheorghe Tudor
+verifying if string is empty: Gheorghe Tudor
+string found not empty: Gheorghe Tudor
+verifying if string is not too bigGheorghe Tudor
+length verification ended succesgully
+verifying name format: Gheorghe Tudor
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 7
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting validation for email vg@yahoo.com
+verifying if string is empty: vg@yahoo.com
+string found not empty: vg@yahoo.com
+verifying if string is not too bigvg@yahoo.com
+length verification ended succesgully
+starting email format validation: vg@yahoo.com
+verifying if string has exactly one specific char: vg@yahoo.com
+starting validation for email local part: vg
+verifying if string is empty: vg
+string found not empty: vg
+verifying if string has no blank spaces: vg
+counting specific chars in string: vg
+counted chars: 0
+counting specific chars in string: vg
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: yahoo.com
+verifying if string has exactly one specific char: yahoo.com
+starting validation for email subdomain: yahoo
+verifying if string is empty: yahoo
+string found not empty: yahoo
+verifying if string is alphabetic: yahoo
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting grade validation: 8.9
+verifying if string is empty: 8.9
+string found not empty: 8.9
+verifying if string is not too big8.9
+length verification ended succesgully
+starting grade format validation: 8.9
+counting specific chars in string: 8.9
+counted chars: 1
+starting separated grade format validation: 8.9
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Vasile; Gheorghe Tudor; vg@yahoo.com; 8.9; Timis;
+word found
+starting county validation: Timis
+verifying if string is empty: Timis
+string found not empty: Timis
+verifying if string is not too bigTimis
+length verification ended succesgully
+starting search for the county: Timis
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Timis
+county validation ended succesfully: Timis
+validation ended succesfully at line: 7
+starting validation for line: 8
+starting line format validation for line: 8
+verifying if string is empty: Ion; Maricica; im@gmail.com; 8.9; Cluj;
+string found not empty: Ion; Maricica; im@gmail.com; 8.9; Cluj;
+counting columns for line: 8
+counting specific chars in string: Ion; Maricica; im@gmail.com; 8.9; Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: Ion; Maricica; im@gmail.com; 8.9; Cluj;
+verifying if last char from string is specific: Ion; Maricica; im@gmail.com; 8.9; Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 8
+starting words validation for line: 8
+starting validation for names in line: 8
+searching specific word in line: Ion; Maricica; im@gmail.com; 8.9; Cluj;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Ion; Maricica; im@gmail.com; 8.9; Cluj;
+word found
+starting validation for name: Maricica
+verifying if string is empty: Maricica
+string found not empty: Maricica
+verifying if string is not too bigMaricica
+length verification ended succesgully
+verifying name format: Maricica
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 8
+searching specific word in line: Ion; Maricica; im@gmail.com; 8.9; Cluj;
+word found
+starting validation for email im@gmail.com
+verifying if string is empty: im@gmail.com
+string found not empty: im@gmail.com
+verifying if string is not too bigim@gmail.com
+length verification ended succesgully
+starting email format validation: im@gmail.com
+verifying if string has exactly one specific char: im@gmail.com
+starting validation for email local part: im
+verifying if string is empty: im
+string found not empty: im
+verifying if string has no blank spaces: im
+counting specific chars in string: im
+counted chars: 0
+counting specific chars in string: im
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Ion; Maricica; im@gmail.com; 8.9; Cluj;
+word found
+starting grade validation: 8.9
+verifying if string is empty: 8.9
+string found not empty: 8.9
+verifying if string is not too big8.9
+length verification ended succesgully
+starting grade format validation: 8.9
+counting specific chars in string: 8.9
+counted chars: 1
+starting separated grade format validation: 8.9
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Ion; Maricica; im@gmail.com; 8.9; Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 8
+database validation complete
+starting database validation
+starting validation for line: 1
+starting line format validation for line: 1
+verifying if string is empty: compot
+string found not empty: compot
+counting columns for line: 1
+counting specific chars in string: compot
+counted chars: 0
+incorrect number of columns found: compot
+printing error message: Incorrect number of columns.
+line format validation ended unsuccesfully: 1
+validation ended unsuccesfully for line: 1
+database validation finished unsuccesfully
+starting validation for email domain part: gmail..com
+verifying if string has exactly one specific char: gmail..com
+printing error message: Invalid '.' in the domain part of the email.
+email domain part validation ended unsuccesfully
+starting validation for email domain part: gma il.com
+verifying if string has exactly one specific char: gma il.com
+starting validation for email subdomain: gma il
+verifying if string is empty: gma il
+string found not empty: gma il
+verifying if string is alphabetic: gma il
+verifying if string is alphabetic ended unsuccesfully
+printing error message: Domain in email has non-alphabetic characters
+email subdomain validation ended unsuccesfully
+email domain part validation ended unsuccesfully
+starting validation for email domain part: gma il.com
+verifying if string has exactly one specific char: gma il.com
+starting validation for email subdomain: gma il
+verifying if string is empty: gma il
+string found not empty: gma il
+verifying if string is alphabetic: gma il
+verifying if string is alphabetic ended unsuccesfully
+printing error message: Domain in email has non-alphabetic characters
+email subdomain validation ended unsuccesfully
+email domain part validation ended unsuccesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+starting email format validation: compotgmail.com
+verifying if string has exactly one specific char: compotgmail.com
+email format validation ended unsuccesfully
+printing error message: Invalid arond in email.
+starting email format validation: com pot@gmail.com
+verifying if string has exactly one specific char: com pot@gmail.com
+starting validation for email local part: com pot
+verifying if string is empty: com pot
+string found not empty: com pot
+verifying if string has no blank spaces: com pot
+counting specific chars in string: com pot
+counted chars: 1
+blank spaces test ended unsuccesfully
+printing error message: Email local part has spaces.
+email local part validation ended unsuccesfully
+email format validation ended unsuccesfully
+starting email format validation: com pot@gmailcom
+verifying if string has exactly one specific char: com pot@gmailcom
+starting validation for email local part: com pot
+verifying if string is empty: com pot
+string found not empty: com pot
+verifying if string has no blank spaces: com pot
+counting specific chars in string: com pot
+counted chars: 1
+blank spaces test ended unsuccesfully
+printing error message: Email local part has spaces.
+email local part validation ended unsuccesfully
+email format validation ended unsuccesfully
+starting email format validation: compot@gmail.com
+verifying if string has exactly one specific char: compot@gmail.com
+starting validation for email local part: compot
+verifying if string is empty: compot
+string found not empty: compot
+verifying if string has no blank spaces: compot
+counting specific chars in string: compot
+counted chars: 0
+counting specific chars in string: compot
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+starting validation for email 
+verifying if string is empty: 
+string found empty: 
+printing error message: Empty email.
+email validation ended unsuccesfully
+starting validation for email compotgeorgevasilemarcelcartofi@gmail.com
+verifying if string is empty: compotgeorgevasilemarcelcartofi@gmail.com
+string found not empty: compotgeorgevasilemarcelcartofi@gmail.com
+verifying if string is not too bigcompotgeorgevasilemarcelcartofi@gmail.com
+printing error message: Email is too big.
+string is too long
+email validation ended unsuccesfully
+starting validation for email compot@.com
+verifying if string is empty: compot@.com
+string found not empty: compot@.com
+verifying if string is not too bigcompot@.com
+length verification ended succesgully
+starting email format validation: compot@.com
+verifying if string has exactly one specific char: compot@.com
+starting validation for email local part: compot
+verifying if string is empty: compot
+string found not empty: compot
+verifying if string has no blank spaces: compot
+counting specific chars in string: compot
+counted chars: 0
+counting specific chars in string: compot
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: .com
+verifying if string has exactly one specific char: .com
+starting validation for email subdomain: 
+verifying if string is empty: 
+string found empty: 
+printing error message: Domain in email is empty.
+email subdomain validation ended unsuccesfully
+email domain part validation ended unsuccesfully
+email format validation ended unsuccesfully
+email validation ended unsuccesfully
+starting validation for email compot@gmail.com
+verifying if string is empty: compot@gmail.com
+string found not empty: compot@gmail.com
+verifying if string is not too bigcompot@gmail.com
+length verification ended succesgully
+starting email format validation: compot@gmail.com
+verifying if string has exactly one specific char: compot@gmail.com
+starting validation for email local part: compot
+verifying if string is empty: compot
+string found not empty: compot
+verifying if string has no blank spaces: compot
+counting specific chars in string: compot
+counted chars: 0
+counting specific chars in string: compot
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+starting validation for email local part: 
+verifying if string is empty: 
+string found empty: 
+printing error message: Email local part is empty.
+email local part validation ended unsuccesfully
+starting validation for email local part: va ile
+verifying if string is empty: va ile
+string found not empty: va ile
+verifying if string has no blank spaces: va ile
+counting specific chars in string: va ile
+counted chars: 1
+blank spaces test ended unsuccesfully
+printing error message: Email local part has spaces.
+email local part validation ended unsuccesfully
+starting validation for email local part: vasile
+verifying if string is empty: vasile
+string found not empty: vasile
+verifying if string has no blank spaces: vasile
+counting specific chars in string: vasile
+counted chars: 0
+counting specific chars in string: vasile
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email subdomain: 
+verifying if string is empty: 
+string found empty: 
+printing error message: Domain in email is empty.
+email subdomain validation ended unsuccesfully
+starting validation for email subdomain: gmail5
+verifying if string is empty: gmail5
+string found not empty: gmail5
+verifying if string is alphabetic: gmail5
+verifying if string is alphabetic ended unsuccesfully
+printing error message: Domain in email has non-alphabetic characters
+email subdomain validation ended unsuccesfully
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+searching specific word in line: abc;;;;;
+word found
+searching specific word in line: ;;xyz;;;
+word found
+printing error message: Only digits and dots accepted in grade.
+starting grade format validation: 8,54
+counting specific chars in string: 8,54
+counted chars: 0
+printing error message: Only digits and dots accepted in grade.
+grade format validation ended unsuccesfully
+starting grade format validation: 11
+counting specific chars in string: 11
+counted chars: 0
+starting simple grade format validation: 11
+simple grade format validation ended unsuccesfully
+printing error message: Grade is not in the 0-10 range.
+grade format validation ended unsuccesfully
+starting grade format validation: 10.25
+counting specific chars in string: 10.25
+counted chars: 1
+starting separated grade format validation: 10.25
+separated grade format validation ended unsuccesfully
+printing error message: Grade is not in the 0-10 range.
+grade format validation ended unsuccesfully
+starting grade format validation: 7..5
+counting specific chars in string: 7..5
+counted chars: 2
+grade format validation ended unsuccesfully
+printing error message: Grade has more than one '.'
+starting grade format validation: 7.25
+counting specific chars in string: 7.25
+counted chars: 1
+starting separated grade format validation: 7.25
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+starting grade validation: 
+verifying if string is empty: 
+string found empty: 
+printing error message: Empty grade.
+grade_validation ended unsuccesfully
+starting grade validation: 3.14159265
+verifying if string is empty: 3.14159265
+string found not empty: 3.14159265
+verifying if string is not too big3.14159265
+length verification ended succesgully
+starting grade format validation: 3.14159265
+counting specific chars in string: 3.14159265
+counted chars: 1
+starting separated grade format validation: 3.14159265
+separated grade format validation ended unsuccesfully
+printing error message: Too many digits after '.'
+grade format validation ended unsuccesfully
+grade_validation ended unsuccesfully
+starting grade validation: 5..5
+verifying if string is empty: 5..5
+string found not empty: 5..5
+verifying if string is not too big5..5
+length verification ended succesgully
+starting grade format validation: 5..5
+counting specific chars in string: 5..5
+counted chars: 2
+grade format validation ended unsuccesfully
+printing error message: Grade has more than one '.'
+grade_validation ended unsuccesfully
+starting grade validation: 8.5
+verifying if string is empty: 8.5
+string found not empty: 8.5
+verifying if string is not too big8.5
+length verification ended succesgully
+starting grade format validation: 8.5
+counting specific chars in string: 8.5
+counted chars: 1
+starting separated grade format validation: 8.5
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+verifying if student has grades over: 8
+searching specific word in line: ;;;7;;
+word found
+student doesn't have grades over: 8
+verifying if student has grades over: 8
+searching specific word in line: ;;;8;;
+word found
+student has grades over: 8
+verifying if student is from county: BRASOV
+searching specific word in line: ;;;;CLUJ;
+word found
+student is not from the county: BRASOV
+verifying if student is from county: BRASOV
+searching specific word in line: ;;;;brasov;
+word found
+student is not from the county: BRASOV
+verifying if last char from string is specific: abc  
+last char from string is not the desired one
+verifying if last char from string is specific: abc  
+last char from string is the desired one
+verifying semicolon ending: abc
+verifying if last char from string is specific: abc
+last char from string is not the desired one
+line doesn't end with semicolon
+printing error message: Line doesn't end with a ';'.
+verifying semicolon ending: abc;  
+verifying if last char from string is specific: abc;  
+last char from string is the desired one
+line ends with semicolon
+starting line format validation for line: 42
+verifying if string is empty: 
+string found empty: 
+printing error message: Empty line.
+line format validation ended unsuccesfully: 42
+starting line format validation for line: 42
+verifying if string is empty: ;;;;;;
+string found not empty: ;;;;;;
+counting columns for line: 42
+counting specific chars in string: ;;;;;;
+counted chars: 6
+incorrect number of columns found: ;;;;;;
+printing error message: Incorrect number of columns.
+line format validation ended unsuccesfully: 42
+starting line format validation for line: 42
+verifying if string is empty: ;;;;;a
+string found not empty: ;;;;;a
+counting columns for line: 42
+counting specific chars in string: ;;;;;a
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: ;;;;;a
+verifying if last char from string is specific: ;;;;;a
+last char from string is not the desired one
+line doesn't end with semicolon
+printing error message: Line doesn't end with a ';'.
+line format validation ended unsuccesfully: 42
+starting line format validation for line: 42
+verifying if string is empty: ;;;;;
+string found not empty: ;;;;;
+counting columns for line: 42
+counting specific chars in string: ;;;;;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: ;;;;;
+verifying if last char from string is specific: ;;;;;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 42
+counting columns for line: 42
+counting specific chars in string: a;b;c;;de;
+counted chars: 5
+counted columns: 5
+counting columns for line: 42
+counting specific chars in string: a;b;c;de;
+counted chars: 4
+incorrect number of columns found: a;b;c;de;
+printing error message: Incorrect number of columns.
+starting validation for line: 42
+starting line format validation for line: 42
+verifying if string is empty: nelu;compot;nc@gml.ro;5;Cluj;;
+string found not empty: nelu;compot;nc@gml.ro;5;Cluj;;
+counting columns for line: 42
+counting specific chars in string: nelu;compot;nc@gml.ro;5;Cluj;;
+counted chars: 6
+incorrect number of columns found: nelu;compot;nc@gml.ro;5;Cluj;;
+printing error message: Incorrect number of columns.
+line format validation ended unsuccesfully: 42
+validation ended unsuccesfully for line: 42
+starting validation for line: 42
+starting line format validation for line: 42
+verifying if string is empty: nelu7;compot.;@gml.ro;5;Cluj;
+string found not empty: nelu7;compot.;@gml.ro;5;Cluj;
+counting columns for line: 42
+counting specific chars in string: nelu7;compot.;@gml.ro;5;Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: nelu7;compot.;@gml.ro;5;Cluj;
+verifying if last char from string is specific: nelu7;compot.;@gml.ro;5;Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 42
+starting words validation for line: 42
+starting validation for names in line: 42
+searching specific word in line: nelu7;compot.;@gml.ro;5;Cluj;
+word found
+starting validation for name: nelu7
+verifying if string is empty: nelu7
+string found not empty: nelu7
+verifying if string is not too bignelu7
+length verification ended succesgully
+verifying name format: nelu7
+name format verification ended unsuccesfully
+printing error message: Invalid character in name.
+name validation ended unsuccesfully
+lastname validation ended unsuccesfully
+words validation ended unsuccesfully
+validation ended unsuccesfully for line: 42
+starting validation for line: 42
+starting line format validation for line: 42
+verifying if string is empty: nelu;compot;nc@gml.ro;5;Cluj;
+string found not empty: nelu;compot;nc@gml.ro;5;Cluj;
+counting columns for line: 42
+counting specific chars in string: nelu;compot;nc@gml.ro;5;Cluj;
+counted chars: 5
+counted columns: 5
+verifying semicolon ending: nelu;compot;nc@gml.ro;5;Cluj;
+verifying if last char from string is specific: nelu;compot;nc@gml.ro;5;Cluj;
+last char from string is the desired one
+line ends with semicolon
+line format validation ended succesfully: 42
+starting words validation for line: 42
+starting validation for names in line: 42
+searching specific word in line: nelu;compot;nc@gml.ro;5;Cluj;
+word found
+starting validation for name: nelu
+verifying if string is empty: nelu
+string found not empty: nelu
+verifying if string is not too bignelu
+length verification ended succesgully
+verifying name format: nelu
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: nelu;compot;nc@gml.ro;5;Cluj;
+word found
+starting validation for name: compot
+verifying if string is empty: compot
+string found not empty: compot
+verifying if string is not too bigcompot
+length verification ended succesgully
+verifying name format: compot
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 42
+searching specific word in line: nelu;compot;nc@gml.ro;5;Cluj;
+word found
+starting validation for email nc@gml.ro
+verifying if string is empty: nc@gml.ro
+string found not empty: nc@gml.ro
+verifying if string is not too bignc@gml.ro
+length verification ended succesgully
+starting email format validation: nc@gml.ro
+verifying if string has exactly one specific char: nc@gml.ro
+starting validation for email local part: nc
+verifying if string is empty: nc
+string found not empty: nc
+verifying if string has no blank spaces: nc
+counting specific chars in string: nc
+counted chars: 0
+counting specific chars in string: nc
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gml.ro
+verifying if string has exactly one specific char: gml.ro
+starting validation for email subdomain: gml
+verifying if string is empty: gml
+string found not empty: gml
+verifying if string is alphabetic: gml
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: ro
+verifying if string is empty: ro
+string found not empty: ro
+verifying if string is alphabetic: ro
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: nelu;compot;nc@gml.ro;5;Cluj;
+word found
+starting grade validation: 5
+verifying if string is empty: 5
+string found not empty: 5
+verifying if string is not too big5
+length verification ended succesgully
+starting grade format validation: 5
+counting specific chars in string: 5
+counted chars: 0
+starting simple grade format validation: 5
+simple grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: nelu;compot;nc@gml.ro;5;Cluj;
+word found
+starting county validation: Cluj
+verifying if string is empty: Cluj
+string found not empty: Cluj
+verifying if string is not too bigCluj
+length verification ended succesgully
+starting search for the county: Cluj
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Cluj
+county validation ended succesfully: Cluj
+validation ended succesfully at line: 42
+verifying name format: Vasile George
+name format verification ended succesfully
+verifying name format: Marcel7
+name format verification ended unsuccesfully
+printing error message: Invalid character in name.
+starting validation for name: 
+verifying if string is empty: 
+string found empty: 
+printing error message: Empty name.
+name validation ended unsuccesfully
+starting validation for name: Abcdefghijabcdefghijabcdefghijabcdefghij
+verifying if string is empty: Abcdefghijabcdefghijabcdefghijabcdefghij
+string found not empty: Abcdefghijabcdefghijabcdefghijabcdefghij
+verifying if string is not too bigAbcdefghijabcdefghijabcdefghijabcdefghij
+printing error message: Name is too big.
+string is too long
+name validation ended unsuccesfully
+starting validation for name: 42
+verifying if string is empty: 42
+string found not empty: 42
+verifying if string is not too big42
+length verification ended succesgully
+verifying name format: 42
+name format verification ended unsuccesfully
+printing error message: Invalid character in name.
+name validation ended unsuccesfully
+starting validation for name: Vasile
+verifying if string is empty: Vasile
+string found not empty: Vasile
+verifying if string is not too bigVasile
+length verification ended succesgully
+verifying name format: Vasile
+name format verification ended succesfully
+name validation ended succesfully
+starting validation for names in line: 42
+searching specific word in line: Marcel89;Gheoghe;;;;
+word found
+starting validation for name: Marcel89
+verifying if string is empty: Marcel89
+string found not empty: Marcel89
+verifying if string is not too bigMarcel89
+length verification ended succesgully
+verifying name format: Marcel89
+name format verification ended unsuccesfully
+printing error message: Invalid character in name.
+name validation ended unsuccesfully
+lastname validation ended unsuccesfully
+starting validation for names in line: 42
+searching specific word in line: ;Marcel;Gheor.ghe;;;
+word found
+starting validation for name: 
+verifying if string is empty: 
+string found empty: 
+printing error message: Empty name.
+name validation ended unsuccesfully
+lastname validation ended unsuccesfully
+starting validation for names in line: 42
+searching specific word in line: Marcel;Gheorghe;;;;
+word found
+starting validation for name: Marcel
+verifying if string is empty: Marcel
+string found not empty: Marcel
+verifying if string is not too bigMarcel
+length verification ended succesgully
+verifying name format: Marcel
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Marcel;Gheorghe;;;;
+word found
+starting validation for name: Gheorghe
+verifying if string is empty: Gheorghe
+string found not empty: Gheorghe
+verifying if string is not too bigGheorghe
+length verification ended succesgully
+verifying name format: Gheorghe
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 42
+starting separated grade format validation: 8.456
+separated grade format validation ended unsuccesfully
+printing error message: Too many digits after '.'
+starting separated grade format validation: 10.45
+separated grade format validation ended unsuccesfully
+printing error message: Grade is not in the 0-10 range.
+starting separated grade format validation: 9.45
+separated grade format validation ended succesfully
+starting simple grade format validation: 11
+simple grade format validation ended unsuccesfully
+printing error message: Grade is not in the 0-10 range.
+starting simple grade format validation: 10
+simple grade format validation ended succesfully
+verifying if string has no blank spaces: abc
+counting specific chars in string: abc
+counted chars: 0
+counting specific chars in string: abc
+counted chars: 0
+blank spaces test ended succesfully
+verifying if string has no blank spaces: a c
+counting specific chars in string: a c
+counted chars: 1
+blank spaces test ended unsuccesfully
+printing error message: just testing
+verifying if string has exactly one specific char: abca
+verifying if string has exactly one specific char: abca
+verifying if string has exactly one specific char: abca
+verifying if string is alphabetic: ab5d
+verifying if string is alphabetic ended unsuccesfully
+printing error message: just testing
+verifying if string is alphabetic: abcd
+verifying if string is alphabetic ended succesfully
+verifying if string is empty: 
+string found empty: 
+printing error message: just testing
+verifying if string is empty: abc
+string found not empty: abc
+verifying if string is not too bigabcd
+length verification ended succesgully
+verifying if string is not too bigabcd
+printing error message: just testing
+string is too long
+starting words validation for line: 42
+starting validation for names in line: 42
+searching specific word in line: Ion3; Cucu?;ic@gmail.com;7;Timis;
+word found
+starting validation for name: Ion3
+verifying if string is empty: Ion3
+string found not empty: Ion3
+verifying if string is not too bigIon3
+length verification ended succesgully
+verifying name format: Ion3
+name format verification ended unsuccesfully
+printing error message: Invalid character in name.
+name validation ended unsuccesfully
+lastname validation ended unsuccesfully
+words validation ended unsuccesfully
+starting words validation for line: 42
+starting validation for names in line: 42
+searching specific word in line: Ion; Cucu;ic@.com;7;Timis;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Ion; Cucu;ic@.com;7;Timis;
+word found
+starting validation for name: Cucu
+verifying if string is empty: Cucu
+string found not empty: Cucu
+verifying if string is not too bigCucu
+length verification ended succesgully
+verifying name format: Cucu
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 42
+searching specific word in line: Ion; Cucu;ic@.com;7;Timis;
+word found
+starting validation for email ic@.com
+verifying if string is empty: ic@.com
+string found not empty: ic@.com
+verifying if string is not too bigic@.com
+length verification ended succesgully
+starting email format validation: ic@.com
+verifying if string has exactly one specific char: ic@.com
+starting validation for email local part: ic
+verifying if string is empty: ic
+string found not empty: ic
+verifying if string has no blank spaces: ic
+counting specific chars in string: ic
+counted chars: 0
+counting specific chars in string: ic
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: .com
+verifying if string has exactly one specific char: .com
+starting validation for email subdomain: 
+verifying if string is empty: 
+string found empty: 
+printing error message: Domain in email is empty.
+email subdomain validation ended unsuccesfully
+email domain part validation ended unsuccesfully
+email format validation ended unsuccesfully
+email validation ended unsuccesfully
+words validation ended unsuccesfully
+starting words validation for line: 42
+starting validation for names in line: 42
+searching specific word in line: Ion; Cucu;ic@gmail.com;10.2;Timis;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Ion; Cucu;ic@gmail.com;10.2;Timis;
+word found
+starting validation for name: Cucu
+verifying if string is empty: Cucu
+string found not empty: Cucu
+verifying if string is not too bigCucu
+length verification ended succesgully
+verifying name format: Cucu
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 42
+searching specific word in line: Ion; Cucu;ic@gmail.com;10.2;Timis;
+word found
+starting validation for email ic@gmail.com
+verifying if string is empty: ic@gmail.com
+string found not empty: ic@gmail.com
+verifying if string is not too bigic@gmail.com
+length verification ended succesgully
+starting email format validation: ic@gmail.com
+verifying if string has exactly one specific char: ic@gmail.com
+starting validation for email local part: ic
+verifying if string is empty: ic
+string found not empty: ic
+verifying if string has no blank spaces: ic
+counting specific chars in string: ic
+counted chars: 0
+counting specific chars in string: ic
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Ion; Cucu;ic@gmail.com;10.2;Timis;
+word found
+starting grade validation: 10.2
+verifying if string is empty: 10.2
+string found not empty: 10.2
+verifying if string is not too big10.2
+length verification ended succesgully
+starting grade format validation: 10.2
+counting specific chars in string: 10.2
+counted chars: 1
+starting separated grade format validation: 10.2
+separated grade format validation ended unsuccesfully
+printing error message: Grade is not in the 0-10 range.
+grade format validation ended unsuccesfully
+grade_validation ended unsuccesfully
+words validation ended unsuccesfully
+starting words validation for line: 42
+starting validation for names in line: 42
+searching specific word in line: Ion; Cucu;ic@gmail.com;7;Timisoara;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Ion; Cucu;ic@gmail.com;7;Timisoara;
+word found
+starting validation for name: Cucu
+verifying if string is empty: Cucu
+string found not empty: Cucu
+verifying if string is not too bigCucu
+length verification ended succesgully
+verifying name format: Cucu
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 42
+searching specific word in line: Ion; Cucu;ic@gmail.com;7;Timisoara;
+word found
+starting validation for email ic@gmail.com
+verifying if string is empty: ic@gmail.com
+string found not empty: ic@gmail.com
+verifying if string is not too bigic@gmail.com
+length verification ended succesgully
+starting email format validation: ic@gmail.com
+verifying if string has exactly one specific char: ic@gmail.com
+starting validation for email local part: ic
+verifying if string is empty: ic
+string found not empty: ic
+verifying if string has no blank spaces: ic
+counting specific chars in string: ic
+counted chars: 0
+counting specific chars in string: ic
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Ion; Cucu;ic@gmail.com;7;Timisoara;
+word found
+starting grade validation: 7
+verifying if string is empty: 7
+string found not empty: 7
+verifying if string is not too big7
+length verification ended succesgully
+starting grade format validation: 7
+counting specific chars in string: 7
+counted chars: 0
+starting simple grade format validation: 7
+simple grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Ion; Cucu;ic@gmail.com;7;Timisoara;
+word found
+starting county validation: Timisoara
+verifying if string is empty: Timisoara
+string found not empty: Timisoara
+verifying if string is not too bigTimisoara
+length verification ended succesgully
+starting search for the county: Timisoara
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county doesn't exist: Timisoara
+printing error message: County doesn't exist.
+words validation ended unsuccesfully
+starting words validation for line: 42
+starting validation for names in line: 42
+searching specific word in line: Ion; Cucu;ic@gmail.com;7.5;Timis;
+word found
+starting validation for name: Ion
+verifying if string is empty: Ion
+string found not empty: Ion
+verifying if string is not too bigIon
+length verification ended succesgully
+verifying name format: Ion
+name format verification ended succesfully
+name validation ended succesfully
+searching specific word in line: Ion; Cucu;ic@gmail.com;7.5;Timis;
+word found
+starting validation for name: Cucu
+verifying if string is empty: Cucu
+string found not empty: Cucu
+verifying if string is not too bigCucu
+length verification ended succesgully
+verifying name format: Cucu
+name format verification ended succesfully
+name validation ended succesfully
+names validation enden succesfully on line: 42
+searching specific word in line: Ion; Cucu;ic@gmail.com;7.5;Timis;
+word found
+starting validation for email ic@gmail.com
+verifying if string is empty: ic@gmail.com
+string found not empty: ic@gmail.com
+verifying if string is not too bigic@gmail.com
+length verification ended succesgully
+starting email format validation: ic@gmail.com
+verifying if string has exactly one specific char: ic@gmail.com
+starting validation for email local part: ic
+verifying if string is empty: ic
+string found not empty: ic
+verifying if string has no blank spaces: ic
+counting specific chars in string: ic
+counted chars: 0
+counting specific chars in string: ic
+counted chars: 0
+blank spaces test ended succesfully
+email local part validation ended succesfully
+starting validation for email domain part: gmail.com
+verifying if string has exactly one specific char: gmail.com
+starting validation for email subdomain: gmail
+verifying if string is empty: gmail
+string found not empty: gmail
+verifying if string is alphabetic: gmail
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+starting validation for email subdomain: com
+verifying if string is empty: com
+string found not empty: com
+verifying if string is alphabetic: com
+verifying if string is alphabetic ended succesfully
+email subdomain validation ended succesfully
+email domain part validation ended succesfully
+email format validation ended succesfully
+email validation ended succesfully
+searching specific word in line: Ion; Cucu;ic@gmail.com;7.5;Timis;
+word found
+starting grade validation: 7.5
+verifying if string is empty: 7.5
+string found not empty: 7.5
+verifying if string is not too big7.5
+length verification ended succesgully
+starting grade format validation: 7.5
+counting specific chars in string: 7.5
+counted chars: 1
+starting separated grade format validation: 7.5
+separated grade format validation ended succesfully
+grade_format_validation ended succesfully
+grade_validation ended succesfully
+searching specific word in line: Ion; Cucu;ic@gmail.com;7.5;Timis;
+word found
+starting county validation: Timis
+verifying if string is empty: Timis
+string found not empty: Timis
+verifying if string is not too bigTimis
+length verification ended succesgully
+starting search for the county: Timis
+trying to open file: includes/county_list.txt
+succesfully opened file: includes/county_list.txt
+county exists: Timis
+county validation ended succesfully: Timis
