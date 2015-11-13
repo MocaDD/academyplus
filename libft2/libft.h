@@ -6,7 +6,7 @@
 /*   By: dmoca <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/10/23 17:48:22 by dmoca             #+#    #+#             */
-/*   Updated: 2015/11/08 12:44:32 by dmoca            ###   ########.fr       */
+/*   Updated: 2015/11/13 20:48:08 by dmoca            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n);
 void	*ft_memccpy(void *dst, const void *src, int c, size_t n);
 void	*ft_memalloc(size_t size);
 void	*ft_memmove(void *dst, const void *src, size_t len);
+void	ft_striter(char *s, void (*f)(char *));
 void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 void	*ft_memchr(const void *s, int c, size_t n);
 void	ft_strclr(char *s);
@@ -73,5 +74,19 @@ void	ft_putnbr_fd(int n, int fd);
 void	ft_putstr_fd(char const *s, int fd);
 void	ft_putendl_fd(char const *s, int fd);
 void	ft_memdel(void **ap);
+
+typedef struct s_list
+{
+	void *content;
+	size_t content_size;
+	struct s_list *next;
+} 				t_list;
+
+t_list	*ft_lstnew(void const *content, size_t content_size);
+void	ft_lstdelone(t_list **alst, void (*del)(void*, size_t));
+void	ft_lstdel(t_list **alst, void (*del)(void *, size_t));
+void	ft_lstadd(t_list **alst, t_list *new);
+void	ft_lstiter(t_list *lst, void (*f)(t_list *elem));
+t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
 #endif
